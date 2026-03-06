@@ -1,0 +1,60 @@
+/**
+ * Tema Prodaric — variables CSS y paleta oscura.
+ * Incluir en la app: <link rel="stylesheet" href="node_modules/@prodaric/ui-engine/lib/theme/prodaric-theme.css">
+ */
+
+:root {
+  /* Primarios */
+  --prodaric-color-primary: #2563eb;
+  --prodaric-color-primary-hover: #1d4ed8;
+  --prodaric-color-primary-muted: #93c5fd;
+
+  /* Fondo y superficie */
+  --prodaric-bg: #ffffff;
+  --prodaric-bg-elevated: #f8fafc;
+  --prodaric-surface: #f1f5f9;
+
+  /* Texto */
+  --prodaric-text: #0f172a;
+  --prodaric-text-muted: #64748b;
+
+  /* Bordes */
+  --prodaric-border: #e2e8f0;
+  --prodaric-border-strong: #cbd5e1;
+
+  /* Estados */
+  --prodaric-success: #16a34a;
+  --prodaric-warning: #ca8a04;
+  --prodaric-error: #dc2626;
+
+  /* Sombras */
+  --prodaric-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --prodaric-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --prodaric-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Paleta oscura */
+[data-prodaric-theme="dark"],
+.prodaric-theme-dark {
+  --prodaric-color-primary: #3b82f6;
+  --prodaric-color-primary-hover: #60a5fa;
+  --prodaric-color-primary-muted: #1e3a8a;
+
+  --prodaric-bg: #0f172a;
+  --prodaric-bg-elevated: #1e293b;
+  --prodaric-surface: #334155;
+
+  --prodaric-text: #f8fafc;
+  --prodaric-text-muted: #94a3b8;
+
+  --prodaric-border: #475569;
+  --prodaric-border-strong: #64748b;
+
+  --prodaric-success: #22c55e;
+  --prodaric-warning: #eab308;
+  --prodaric-error: #ef4444;
+
+  --prodaric-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --prodaric-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --prodaric-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+}

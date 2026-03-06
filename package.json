@@ -1,0 +1,27 @@
+{
+  "name": "@prodaric/ui-engine",
+  "version": "0.0.1",
+  "description": "Prodaric Framework — Web Components & Form Engine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodaric/ui-engine.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').mkdirSync('lib/theme',{recursive:true}); require('fs').copyFileSync('src/theme/prodaric-theme.css','lib/theme/prodaric-theme.css')\"",
+    "clean": "rimraf lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^5.0.0",
+    "typescript": "~5.4.0"
+  }
+}
