@@ -17,7 +17,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc && node -e \"require('fs').mkdirSync('lib/theme',{recursive:true}); require('fs').copyFileSync('src/theme/prodaric-theme.css','lib/theme/prodaric-theme.css')\"",
-    "clean": "rimraf lib"
+    "clean": "rimraf lib",
+    "test": "echo \"No tests yet\""
   },
   "dependencies": {},
   "devDependencies": {
